@@ -1,12 +1,3 @@
-// import { defineConfig } from 'vite'
-// import react from '@vitejs/plugin-react'
-
-
-// // https://vite.dev/config/
-// export default defineConfig({
-//   plugins: [react()],
-//   base: '/Evangadi-forum-frontend/', // Replace <REPO_NAME> with your GitHub repository name
-// });
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { resolve } from 'path';
@@ -14,7 +5,7 @@ import { copyFileSync } from 'fs';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Evangadi-forum-frontend/',
+  base: '/Evangadi-Forum-Client/',
   build: {
     rollupOptions: {
       input: {
